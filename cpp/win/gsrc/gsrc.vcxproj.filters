@@ -1,0 +1,156 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Protocl">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Protocl\Base">
+      <UniqueIdentifier>{de6c8a55-558f-4d27-9989-4637065ff1cb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Main">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Protocl\Object">
+      <UniqueIdentifier>{dd820dd2-811d-47cb-b2cd-03e21c36b44a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SDK">
+      <UniqueIdentifier>{2c1d41d4-5631-4792-b0dd-fbe2b16f65df}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SDK\mdk_ex">
+      <UniqueIdentifier>{2743a5e8-4617-4617-a96d-e46abad07f91}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SDK\common">
+      <UniqueIdentifier>{217213a5-2411-4635-920b-7cbdffeb1ecc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Protocl\Object\gsrc">
+      <UniqueIdentifier>{9a3345c8-801e-44ab-8241-d47e2d486346}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\gsrc\Worker.cpp">
+      <Filter>Main</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\sdk\common\Common.cpp">
+      <Filter>SDK\common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\sdk\mdk_ex\Console.cpp">
+      <Filter>SDK\mdk_ex</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\sdk\mdk_ex\File.cpp">
+      <Filter>SDK\mdk_ex</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\sdk\mdk_ex\MD5Helper.cpp">
+      <Filter>SDK\mdk_ex</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\sdk\mdk_ex\RHTable.cpp">
+      <Filter>SDK\mdk_ex</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\sdk\mdk_ex\ServerEx.cpp">
+      <Filter>SDK\mdk_ex</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\sdk\mdk_ex\ShareObject.cpp">
+      <Filter>SDK\mdk_ex</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\sdk\mdk_ex\SmallMap.cpp">
+      <Filter>SDK\mdk_ex</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\sdk\mdk_ex\ThreadHeap.cpp">
+      <Filter>SDK\mdk_ex</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\sdk\mdk_ex\Timer.cpp">
+      <Filter>SDK\mdk_ex</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\protocl\cpp\Buffer.cpp">
+      <Filter>Protocl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\protocl\cpp\base\Message.cpp">
+      <Filter>Protocl\Base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\protocl\cpp\base\Stream.cpp">
+      <Filter>Protocl\Base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\protocl\cpp\object\gsrc\GetCluster.cpp">
+      <Filter>Protocl\Object\gsrc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\protocl\cpp\object\gsrc\MsgGetClientId.cpp">
+      <Filter>Protocl\Object\gsrc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\gsrc\GSrc.cpp">
+      <Filter>Main</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\gsrc\Worker.h">
+      <Filter>Main</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\sdk\common\Common.h">
+      <Filter>SDK\common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\sdk\mdk_ex\Console.h">
+      <Filter>SDK\mdk_ex</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\sdk\mdk_ex\File.h">
+      <Filter>SDK\mdk_ex</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\sdk\mdk_ex\FixSort.h">
+      <Filter>SDK\mdk_ex</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\sdk\mdk_ex\MD5Helper.h">
+      <Filter>SDK\mdk_ex</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\sdk\mdk_ex\RHTable.h">
+      <Filter>SDK\mdk_ex</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\sdk\mdk_ex\ServerEx.h">
+      <Filter>SDK\mdk_ex</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\sdk\mdk_ex\ShareObject.h">
+      <Filter>SDK\mdk_ex</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\sdk\mdk_ex\SmallMap.h">
+      <Filter>SDK\mdk_ex</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\sdk\mdk_ex\ThreadHeap.h">
+      <Filter>SDK\mdk_ex</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\sdk\mdk_ex\Timer.h">
+      <Filter>SDK\mdk_ex</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\protocl\cpp\Buffer.h">
+      <Filter>Protocl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\protocl\cpp\Protocl.h">
+      <Filter>Protocl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\protocl\cpp\base\Message.h">
+      <Filter>Protocl\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\protocl\cpp\base\Stream.h">
+      <Filter>Protocl\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\protocl\cpp\object\gsrc\GetCluster.h">
+      <Filter>Protocl\Object\gsrc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\protocl\cpp\object\gsrc\MsgGetClientId.h">
+      <Filter>Protocl\Object\gsrc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\gsrc\GSrc.h">
+      <Filter>Main</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\gsrc\makefile" />
+    <None Include="..\..\sdk\mdk_ex\makefile">
+      <Filter>SDK\mdk_ex</Filter>
+    </None>
+    <None Include="..\..\protocl\makefile">
+      <Filter>Protocl</Filter>
+    </None>
+    <None Include="..\..\bin\gsrc\gsrc.cfg" />
+    <None Include="..\..\bin\gsrc\list.sh" />
+    <None Include="..\..\bin\gsrc\run.sh" />
+    <None Include="..\..\bin\gsrc\stop.sh" />
+  </ItemGroup>
+</Project>

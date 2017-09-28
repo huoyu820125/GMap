@@ -1,0 +1,344 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="sdk">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="sdk\gmap">
+      <UniqueIdentifier>{aca20cb8-5b01-4515-b713-a25225c1e5cc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="sdk\gsrc">
+      <UniqueIdentifier>{6b8996ba-a68b-4b5e-b633-3f6e40101b5e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="sdk\protocl">
+      <UniqueIdentifier>{8c29b047-1e53-4070-b28e-fc1f459c31e5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="sdk\protocl\base">
+      <UniqueIdentifier>{af4b2341-fa30-4378-bf68-2b83643a34e8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="sdk\protocl\object">
+      <UniqueIdentifier>{4ba6552f-3026-481f-b3cf-665ce7ca858a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="sdk\protocl\object\gsrc">
+      <UniqueIdentifier>{099d62a9-eb65-492f-9a85-d462333189a6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="sdk\protocl\object\gmap">
+      <UniqueIdentifier>{9c65811a-d566-42aa-abfd-303c86d1fb44}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="sdk\common">
+      <UniqueIdentifier>{9348f8b1-8e2d-46c5-9a4c-b0b4c3dfeb42}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="sdk\common\struct">
+      <UniqueIdentifier>{e09198b3-d187-498d-a78d-da30ee41b4b0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="sdk\mdk_ex">
+      <UniqueIdentifier>{944db026-e8c5-42bb-a3dc-d9d5bdfdaf6c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="sdk\mdk_ex\container">
+      <UniqueIdentifier>{0ed42cba-1fab-41d5-9e28-cf154a31f2bb}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\sdk\client\Client.cpp">
+      <Filter>sdk</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\sdk\client\gsrc\GSrc.cpp">
+      <Filter>sdk\gsrc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\sdk\client\gmap\GCluster.cpp">
+      <Filter>sdk\gmap</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\sdk\client\gmap\GMap.cpp">
+      <Filter>sdk\gmap</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\sdk\client\gmap\test\Test.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\protocl\cpp\Buffer.cpp">
+      <Filter>sdk\protocl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\protocl\cpp\base\Message.cpp">
+      <Filter>sdk\protocl\base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\protocl\cpp\base\Socket.cpp">
+      <Filter>sdk\protocl\base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\protocl\cpp\base\Stream.cpp">
+      <Filter>sdk\protocl\base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\protocl\cpp\object\gsrc\GetCluster.cpp">
+      <Filter>sdk\protocl\object\gsrc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\protocl\cpp\object\gsrc\MsgGetClientId.cpp">
+      <Filter>sdk\protocl\object\gsrc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\protocl\cpp\object\gmap\MsgAddLine.cpp">
+      <Filter>sdk\protocl\object\gmap</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\protocl\cpp\object\gmap\MsgAddLineForPoint.cpp">
+      <Filter>sdk\protocl\object\gmap</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\protocl\cpp\object\gmap\MsgDelLine.cpp">
+      <Filter>sdk\protocl\object\gmap</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\protocl\cpp\object\gmap\MsgDelLineForPoint.cpp">
+      <Filter>sdk\protocl\object\gmap</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\protocl\cpp\object\gmap\MsgDelPoint.cpp">
+      <Filter>sdk\protocl\object\gmap</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\protocl\cpp\object\gmap\MsgGetLine.cpp">
+      <Filter>sdk\protocl\object\gmap</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\protocl\cpp\object\gmap\MsgGetPoint.cpp">
+      <Filter>sdk\protocl\object\gmap</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\protocl\cpp\object\gmap\MsgMove.cpp">
+      <Filter>sdk\protocl\object\gmap</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\protocl\cpp\object\gmap\MsgMoveMids.cpp">
+      <Filter>sdk\protocl\object\gmap</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\protocl\cpp\object\gmap\MsgNewId.cpp">
+      <Filter>sdk\protocl\object\gmap</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\protocl\cpp\object\gmap\MsgPoints.cpp">
+      <Filter>sdk\protocl\object\gmap</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\protocl\cpp\object\gmap\MsgSetMoveOpt.cpp">
+      <Filter>sdk\protocl\object\gmap</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\protocl\cpp\object\gmap\MsgSetPoint.cpp">
+      <Filter>sdk\protocl\object\gmap</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\protocl\cpp\object\gmap\MsgSetPoints.cpp">
+      <Filter>sdk\protocl\object\gmap</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\protocl\cpp\object\gmap\Serialize.cpp">
+      <Filter>sdk\protocl\object\gmap</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\sdk\common\CallResult.cpp">
+      <Filter>sdk\common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\sdk\common\Common.cpp">
+      <Filter>sdk\common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\sdk\common\Grid.cpp">
+      <Filter>sdk\common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\sdk\common\heap.cpp">
+      <Filter>sdk\common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\sdk\common\struct\CanLocateData.cpp">
+      <Filter>sdk\common\struct</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\sdk\common\struct\Line.cpp">
+      <Filter>sdk\common\struct</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\sdk\common\struct\OwnLines.cpp">
+      <Filter>sdk\common\struct</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\sdk\common\struct\Point.cpp">
+      <Filter>sdk\common\struct</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\sdk\mdk_ex\Console.cpp">
+      <Filter>sdk\mdk_ex</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\sdk\mdk_ex\File.cpp">
+      <Filter>sdk\mdk_ex</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\sdk\mdk_ex\MD5Helper.cpp">
+      <Filter>sdk\mdk_ex</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\sdk\mdk_ex\RHTable.cpp">
+      <Filter>sdk\mdk_ex</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\sdk\mdk_ex\ServerEx.cpp">
+      <Filter>sdk\mdk_ex</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\sdk\mdk_ex\ShareObject.cpp">
+      <Filter>sdk\mdk_ex</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\sdk\mdk_ex\SmallMap.cpp">
+      <Filter>sdk\mdk_ex</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\sdk\mdk_ex\ThreadHeap.cpp">
+      <Filter>sdk\mdk_ex</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\sdk\mdk_ex\Timer.cpp">
+      <Filter>sdk\mdk_ex</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\sdk\mdk_ex\container\Array.cpp">
+      <Filter>sdk\mdk_ex\container</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\sdk\mdk_ex\container\Link.cpp">
+      <Filter>sdk\mdk_ex\container</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\sdk\mdk_ex\container\Map.cpp">
+      <Filter>sdk\mdk_ex\container</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\sdk\mdk_ex\container\Tree.cpp">
+      <Filter>sdk\mdk_ex\container</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\sdk\client\Client.h">
+      <Filter>sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\sdk\client\gsrc\GSrc.h">
+      <Filter>sdk\gsrc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\sdk\client\gmap\GCluster.h">
+      <Filter>sdk\gmap</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\sdk\client\gmap\GMap.h">
+      <Filter>sdk\gmap</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\protocl\cpp\Buffer.h">
+      <Filter>sdk\protocl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\protocl\cpp\Protocl.h">
+      <Filter>sdk\protocl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\protocl\cpp\base\Message.h">
+      <Filter>sdk\protocl\base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\protocl\cpp\base\Socket.h">
+      <Filter>sdk\protocl\base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\protocl\cpp\base\Stream.h">
+      <Filter>sdk\protocl\base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\protocl\cpp\object\gsrc\GetCluster.h">
+      <Filter>sdk\protocl\object\gsrc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\protocl\cpp\object\gsrc\MsgGetClientId.h">
+      <Filter>sdk\protocl\object\gsrc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\protocl\cpp\object\gmap\MsgAddLine.h">
+      <Filter>sdk\protocl\object\gmap</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\protocl\cpp\object\gmap\MsgAddLineForPoint.h">
+      <Filter>sdk\protocl\object\gmap</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\protocl\cpp\object\gmap\MsgDelLine.h">
+      <Filter>sdk\protocl\object\gmap</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\protocl\cpp\object\gmap\MsgDelLineForPoint.h">
+      <Filter>sdk\protocl\object\gmap</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\protocl\cpp\object\gmap\MsgDelPoint.h">
+      <Filter>sdk\protocl\object\gmap</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\protocl\cpp\object\gmap\MsgGetLine.h">
+      <Filter>sdk\protocl\object\gmap</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\protocl\cpp\object\gmap\MsgGetPoint.h">
+      <Filter>sdk\protocl\object\gmap</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\protocl\cpp\object\gmap\MsgMove.h">
+      <Filter>sdk\protocl\object\gmap</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\protocl\cpp\object\gmap\MsgMoveMids.h">
+      <Filter>sdk\protocl\object\gmap</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\protocl\cpp\object\gmap\MsgNewId.h">
+      <Filter>sdk\protocl\object\gmap</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\protocl\cpp\object\gmap\MsgPoints.h">
+      <Filter>sdk\protocl\object\gmap</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\protocl\cpp\object\gmap\MsgSetMoveOpt.h">
+      <Filter>sdk\protocl\object\gmap</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\protocl\cpp\object\gmap\MsgSetPoint.h">
+      <Filter>sdk\protocl\object\gmap</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\protocl\cpp\object\gmap\MsgSetPoints.h">
+      <Filter>sdk\protocl\object\gmap</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\protocl\cpp\object\gmap\Serialize.h">
+      <Filter>sdk\protocl\object\gmap</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\sdk\common\CallResult.h">
+      <Filter>sdk\common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\sdk\common\Common.h">
+      <Filter>sdk\common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\sdk\common\Grid.h">
+      <Filter>sdk\common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\sdk\common\heap.h">
+      <Filter>sdk\common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\sdk\common\struct\CanLocateData.h">
+      <Filter>sdk\common\struct</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\sdk\common\struct\Line.h">
+      <Filter>sdk\common\struct</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\sdk\common\struct\OwnLines.h">
+      <Filter>sdk\common\struct</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\sdk\common\struct\Point.h">
+      <Filter>sdk\common\struct</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\sdk\mdk_ex\Console.h">
+      <Filter>sdk\mdk_ex</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\sdk\mdk_ex\File.h">
+      <Filter>sdk\mdk_ex</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\sdk\mdk_ex\FixSort.h">
+      <Filter>sdk\mdk_ex</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\sdk\mdk_ex\MD5Helper.h">
+      <Filter>sdk\mdk_ex</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\sdk\mdk_ex\RHTable.h">
+      <Filter>sdk\mdk_ex</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\sdk\mdk_ex\ServerEx.h">
+      <Filter>sdk\mdk_ex</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\sdk\mdk_ex\ShareObject.h">
+      <Filter>sdk\mdk_ex</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\sdk\mdk_ex\SmallMap.h">
+      <Filter>sdk\mdk_ex</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\sdk\mdk_ex\ThreadHeap.h">
+      <Filter>sdk\mdk_ex</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\sdk\mdk_ex\Timer.h">
+      <Filter>sdk\mdk_ex</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\sdk\mdk_ex\container\Array.h">
+      <Filter>sdk\mdk_ex\container</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\sdk\mdk_ex\container\Link.h">
+      <Filter>sdk\mdk_ex\container</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\sdk\mdk_ex\container\Map.h">
+      <Filter>sdk\mdk_ex\container</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\sdk\mdk_ex\container\Tree.h">
+      <Filter>sdk\mdk_ex\container</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\sdk\mdk_ex\makefile">
+      <Filter>sdk\mdk_ex</Filter>
+    </None>
+  </ItemGroup>
+</Project>

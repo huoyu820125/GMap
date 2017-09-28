@@ -1,0 +1,149 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Auth">
+      <UniqueIdentifier>{4a1d5858-2824-486b-ab96-af1f78b56b80}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Room">
+      <UniqueIdentifier>{7b3204c0-88ab-45ae-b1d3-e9dda1dae3e6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Mall">
+      <UniqueIdentifier>{6bcb9a29-fd88-4151-896e-f485898a961b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Base">
+      <UniqueIdentifier>{847c42b9-5213-4cd3-8ee0-f7892ee34a2c}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\Object\Auth\UserRegister.h">
+      <Filter>Auth</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Object\Auth\UserLogin.h">
+      <Filter>Auth</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Object\Mall\BuyItem.h">
+      <Filter>Mall</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Object\Mall\ItemInfo.h">
+      <Filter>Mall</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Object\Mall\ItemListState.h">
+      <Filter>Mall</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Object\Mall\QueryItemList.h">
+      <Filter>Mall</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Object\Room\BanTalk.h">
+      <Filter>Room</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Object\Room\EnterRoom.h">
+      <Filter>Room</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Object\Room\LookerListState.h">
+      <Filter>Room</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Object\Room\LookerPart.h">
+      <Filter>Room</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Object\Room\OutRoom.h">
+      <Filter>Room</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Object\Room\RoomFrozen.h">
+      <Filter>Room</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Object\Room\RoomInfo.h">
+      <Filter>Room</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Object\Room\ShowEnd.h">
+      <Filter>Room</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Object\Room\ShowStart.h">
+      <Filter>Room</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Object\Room\Talk.h">
+      <Filter>Room</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Object\Room\TickOutRoom.h">
+      <Filter>Room</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Object\Room\UseItem.h">
+      <Filter>Room</Filter>
+    </ClInclude>
+    <ClInclude Include="..\base\Stream.h">
+      <Filter>Base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\base\Message.h">
+      <Filter>Base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\base\Socket.h">
+      <Filter>Base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Protocl.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\Object\Auth\UserLogin.cpp">
+      <Filter>Auth</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Object\Auth\UserRegister.cpp">
+      <Filter>Auth</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Object\Mall\BuyItem.cpp">
+      <Filter>Mall</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Object\Mall\ItemInfo.cpp">
+      <Filter>Mall</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Object\Mall\ItemListState.cpp">
+      <Filter>Mall</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Object\Mall\QueryItemList.cpp">
+      <Filter>Mall</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Object\Room\BanTalk.cpp">
+      <Filter>Room</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Object\Room\EnterRoom.cpp">
+      <Filter>Room</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Object\Room\LookerListState.cpp">
+      <Filter>Room</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Object\Room\LookerPart.cpp">
+      <Filter>Room</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Object\Room\OutRoom.cpp">
+      <Filter>Room</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Object\Room\RoomFrozen.cpp">
+      <Filter>Room</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Object\Room\RoomInfo.cpp">
+      <Filter>Room</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Object\Room\ShowEnd.cpp">
+      <Filter>Room</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Object\Room\ShowStart.cpp">
+      <Filter>Room</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Object\Room\Talk.cpp">
+      <Filter>Room</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Object\Room\TickOutRoom.cpp">
+      <Filter>Room</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Object\Room\UseItem.cpp">
+      <Filter>Room</Filter>
+    </ClCompile>
+    <ClCompile Include="MsgHelper.cpp" />
+    <ClCompile Include="..\base\Message.cpp">
+      <Filter>Base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\base\Socket.cpp">
+      <Filter>Base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\base\Stream.cpp">
+      <Filter>Base</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,127 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\base\Message.cpp" />
+    <ClCompile Include="..\base\Socket.cpp" />
+    <ClCompile Include="..\base\Stream.cpp" />
+    <ClCompile Include="..\Object\Auth\UserLogin.cpp" />
+    <ClCompile Include="..\Object\Auth\UserRegister.cpp" />
+    <ClCompile Include="..\Object\Mall\BuyItem.cpp" />
+    <ClCompile Include="..\Object\Mall\ItemInfo.cpp" />
+    <ClCompile Include="..\Object\Mall\ItemListState.cpp" />
+    <ClCompile Include="..\Object\Mall\QueryItemList.cpp" />
+    <ClCompile Include="..\Object\Room\BanTalk.cpp" />
+    <ClCompile Include="..\Object\Room\EnterRoom.cpp" />
+    <ClCompile Include="..\Object\Room\LookerListState.cpp" />
+    <ClCompile Include="..\Object\Room\LookerPart.cpp" />
+    <ClCompile Include="..\Object\Room\OutRoom.cpp" />
+    <ClCompile Include="..\Object\Room\RoomFrozen.cpp" />
+    <ClCompile Include="..\Object\Room\RoomInfo.cpp" />
+    <ClCompile Include="..\Object\Room\ShowEnd.cpp" />
+    <ClCompile Include="..\Object\Room\ShowStart.cpp" />
+    <ClCompile Include="..\Object\Room\Talk.cpp" />
+    <ClCompile Include="..\Object\Room\TickOutRoom.cpp" />
+    <ClCompile Include="..\Object\Room\UseItem.cpp" />
+    <ClCompile Include="MsgHelper.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\base\Message.h" />
+    <ClInclude Include="..\base\Socket.h" />
+    <ClInclude Include="..\base\Stream.h" />
+    <ClInclude Include="..\Object\Auth\UserLogin.h" />
+    <ClInclude Include="..\Object\Auth\UserRegister.h" />
+    <ClInclude Include="..\Object\Mall\BuyItem.h" />
+    <ClInclude Include="..\Object\Mall\ItemInfo.h" />
+    <ClInclude Include="..\Object\Mall\ItemListState.h" />
+    <ClInclude Include="..\Object\Mall\QueryItemList.h" />
+    <ClInclude Include="..\Object\Room\BanTalk.h" />
+    <ClInclude Include="..\Object\Room\EnterRoom.h" />
+    <ClInclude Include="..\Object\Room\LookerListState.h" />
+    <ClInclude Include="..\Object\Room\LookerPart.h" />
+    <ClInclude Include="..\Object\Room\OutRoom.h" />
+    <ClInclude Include="..\Object\Room\RoomFrozen.h" />
+    <ClInclude Include="..\Object\Room\RoomInfo.h" />
+    <ClInclude Include="..\Object\Room\ShowEnd.h" />
+    <ClInclude Include="..\Object\Room\ShowStart.h" />
+    <ClInclude Include="..\Object\Room\Talk.h" />
+    <ClInclude Include="..\Object\Room\TickOutRoom.h" />
+    <ClInclude Include="..\Object\Room\UseItem.h" />
+    <ClInclude Include="..\Protocl.h" />
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{B03ABD0C-FD7A-4417-BB9B-F5748CB02C5E}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>MsgHelper</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
